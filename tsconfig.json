@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@anyres/ng-mock-restful": [
+        "dist/anyres/ng-mock-restful"
+      ],
+      "@anyres/ng-mock-restful/*": [
+        "dist/anyres/ng-mock-restful/*"
+      ]
+    }
   }
 }
