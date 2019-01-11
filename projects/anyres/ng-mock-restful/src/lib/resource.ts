@@ -5,7 +5,7 @@ export interface Resource {
 }
 
 export class Resources<T extends Resource> {
-  constructor(private list: T[] = []) { }
+  constructor(public list: T[] = []) { }
 
   getLength() {
     return this.list.length;
